@@ -1,0 +1,60 @@
+compact: true
+
+What It Does: Makes the code smaller by removing extra spaces and formatting.
+Simple Explanation: Compresses the code to take up less space.
+controlFlowFlattening: true
+
+What It Does: Changes the structure of the code to make it harder to understand.
+Simple Explanation: Scrambles the code's flow so it's harder to follow.
+controlFlowFlatteningThreshold: 0.75
+
+What It Does: Sets how much of the code's flow should be scrambled. A value of 0.75 means 75% of the code will be scrambled.
+Simple Explanation: Decides how much of the code will be made confusing.
+deadCodeInjection: true
+
+What It Does: Adds extra, unused code to make the real code harder to find.
+Simple Explanation: Inserts extra fake code that doesn’t do anything to confuse anyone trying to understand the real code.
+deadCodeInjectionThreshold: 0.4
+
+What It Does: Sets how much fake code to add. A value of 0.4 means 40% of the code could be fake.
+Simple Explanation: Decides how much extra fake code should be added.
+debugProtection: false
+
+What It Does: Disables features that prevent debugging tools from working.
+Simple Explanation: Allows debugging tools to work as usual.
+debugProtectionInterval: false
+
+What It Does: This setting is used to control the interval for debug protection, but it's set to false, so it’s not active.
+Simple Explanation: This setting isn’t used in your case, so it won’t affect anything.
+disableConsoleOutput: true
+
+What It Does: Prevents the code from writing messages to the console.
+Simple Explanation: Stops the code from showing messages in the console.
+identifierNamesGenerator: "hexadecimal"
+
+What It Does: Changes the names of variables and functions to hexadecimal (a base-16 number system).
+Simple Explanation: Renames parts of the code to random hexadecimal names (like "a1b2c3").
+log: false
+
+What It Does: Disables logging messages from the obfuscator itself.
+Simple Explanation: Turns off messages that the obfuscator might show during its work.
+renameGlobals: true
+
+What It Does: Renames global variables to make them harder to recognize.
+Simple Explanation: Changes the names of global variables to make them less obvious.
+rotateStringArray: true
+
+What It Does: Changes the order of strings in the code to obscure their usage.
+Simple Explanation: Scrambles the order of strings in the code.
+selfDefending: true
+
+What It Does: Makes the code harder to reverse-engineer by including self-defense mechanisms.
+Simple Explanation: Adds protective features to make the code harder to break into or understand.
+stringArray: true
+
+What It Does: Converts strings in the code into an array to make them less visible.
+Simple Explanation: Stores strings in a hidden array instead of keeping them directly in the code.
+stringArrayEncoding: ["base64"]
+
+What It Does: Encodes the strings in the array using base64, which is a way of converting data into a text format.
+Simple Explanation: Converts strings into a coded format (base64) to hide their content.
